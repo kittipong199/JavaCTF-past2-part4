@@ -1,0 +1,35 @@
+package art.mobliephone;
+
+public class MobilePhone {
+	public String phoneCall;
+	public String sms;
+	public String internetSurfing;
+	
+}
+
+class Android  extends MobilePhone{
+	public String useGearVR;
+	public String transformToPC;
+	public String  googlePlay;
+	
+}
+
+class iPhone extends MobilePhone{
+	public String appStore;
+}
+class SamSungGalaxyNote8 extends Android{
+	
+	public String usrPan;
+	
+}
+class SamSungGalaxyS8 extends Android{
+	
+	
+}
+
+class iPhoneX extends iPhone{
+	public String faceID;
+}
+class iPhone8 extends iPhone{
+	public String touchID;
+}
